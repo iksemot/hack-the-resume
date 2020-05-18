@@ -9,7 +9,7 @@
 
 ```bash
 npm run build
-cp -R public dist
+cp -R public/* dist
 cd dist
 git add .
 git commit -am "bump"
